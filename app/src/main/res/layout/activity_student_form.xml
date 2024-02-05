@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student_Form">
+
+    <TextView
+        android:id="@+id/txtStudReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtStudReg"
+        android:textColor="#1A6F88"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtName"
+            android:textColor="#10492C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_marginStart="10dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:hint="@string/name" />
+
+        <TextView
+            android:id="@+id/txtRollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtRollno"
+            android:textColor="#10492C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtRollno"
+            android:layout_marginStart="10dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:hint="@string/rollno" />
+
+        <TextView
+            android:id="@+id/txtMarks1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtC"
+            android:textColor="#10492C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMarks1"
+            android:layout_marginStart="10dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:hint="@string/c" />
+
+        <TextView
+            android:id="@+id/txtMarks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtCpp"
+            android:textColor="#10492C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMarks2"
+            android:layout_marginStart="10dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:hint="@string/cpp" />
+
+        <TextView
+            android:id="@+id/txtMarks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtJava"
+            android:textColor="#10492C"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMarks3"
+            android:layout_marginStart="10dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:hint="@string/java"
+            android:textColor="#10492C" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="#1A6F87"
+        android:padding="5dp"
+        android:text="@string/submit" />
+</LinearLayout>

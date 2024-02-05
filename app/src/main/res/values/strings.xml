@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DBConnection</string>
+    <string name="txtStudReg">Student Registration</string>
+    <string name="txtName">Enter Name : </string>
+    <string name="txtRollno">Enter RollNumber :</string>
+    <string name="txtC">Enter Marks of C :</string>
+    <string name="txtCpp">Enter Marks of C++ :</string>
+    <string name="txtJava">Enter Marks of Java :</string>
+    <string name="txtTotal">Total :</string>
+    <string name="txtDateTime">Create Date :</string>
+    <string name="name">Name</string>
+    <string name="rollno">Rollno</string>
+    <string name="c">C</string>
+    <string name="cpp">CPP</string>
+    <string name="java">Java</string>
+    <string name="submit">Submit</string>
+    <string name="enter_date">Enter Date :</string>
+    <string name="add_student">Add Student</string>
+
+
+</resources>
